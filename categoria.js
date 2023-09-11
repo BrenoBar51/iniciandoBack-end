@@ -1,17 +1,17 @@
 function cadastrar(){
-    console.log('Cadastrar categoria');
+    return('Cadastrar categoria');
 }
 
 function listar(){
-    console.log('Listar categoria');
+    return('Listar categoria');
 }
 
 function excluir(){
-    console.log('Excluir categoria');
+    return('Excluir categoria');
 }
 
 function editar(){
-    console.log('Editar categoria');
+    return('Editar categoria');
 }
 
 module.exports = {

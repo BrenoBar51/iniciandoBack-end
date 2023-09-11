@@ -1,17 +1,17 @@
 function cadastrar(){
-    console.log('Cadastrar cliente');
+    return('Cadastrar cliente');
 }
 
 function listar(){
-    console.log('Listar cliente');
+    return('Listar cliente');
 }
 
 function excluir(){
-    console.log('Excluir cliente');
+    return('Excluir cliente');
 }
 
 function editar(){
-    console.log('Editar cliente');
+    return('Editar cliente');
 }
 
 module.exports = {

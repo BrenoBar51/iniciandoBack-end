@@ -1,17 +1,17 @@
 function cadastrar(){
-    console.log('Cadastrar produto');
+    return('Cadastrar produto');
 }
 
 function listar(){
-    console.log('Listar produto');
+    return('Listar produto');
 }
 
 function excluir(){
-    console.log('Excluir produto');
+    return('Excluir produto');
 }
 
 function editar(){
-    console.log('Editar produto');
+    return('Editar produto');
 }
 
 module.exports = {

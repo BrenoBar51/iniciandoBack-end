@@ -8,14 +8,13 @@ const cliente = require('./cliente');
 
 function recepcao(req, res){
     if(req.url === '/clientes'){
-        res.end('Listando clientes');
+        res.end(cliente.listar());
+    }//insomnia rest
+    
+    if(req.url === '/produtos'){
+        res.end(produto.listar());
     }
-    else if(req.url === '/produtos'){
-        res.end('Listando produtos');
-    }
-    else{
-        res.end('Ola mundo');
-    }
+    res.end('Erro 404');
 }
 
 http.createServer(recepcao).listen(8001);
