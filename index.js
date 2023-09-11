@@ -9,10 +9,12 @@ const cliente = require('./cliente');
 function recepcao(req, res){
     if(req.url === '/clientes'){
         res.end(cliente.listar());
+        return;
     }//insomnia rest
-    
+
     if(req.url === '/produtos'){
         res.end(produto.listar());
+        return;
     }
     res.end('Erro 404');
 }
