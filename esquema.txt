@@ -1,0 +1,15 @@
+Entidades / tabelas
+
+-palpaveis
+    -professor
+    -aluno
+    -laboratorio
+        -id (PK Primore Key)
+        -nome (string)
+        -capacidade (int)
+        -cor (string)
+
+-não palpaveis 
+    -curso
+    -turma
+    -disciplina
