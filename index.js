@@ -19,4 +19,4 @@ function recepcao(req, res){
     res.end('Erro 404');
 }
 
-http.createServer(recepcao).listen(8001);
+http.createServer(recepcao).listen(8000);
