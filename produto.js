@@ -1,22 +1,22 @@
-function cadastrar(){
-    return('Cadastrar produto');
+function cadastrar() {
+  return "Cadastrar produto";
 }
 
-function listar(){
-    return('Listar produto');
+function listar() {
+  return "Listar produto";
 }
 
-function excluir(){
-    return('Excluir produto');
+function excluir() {
+  return "Excluir produto";
 }
 
-function editar(){
-    return('Editar produto');
+function editar() {
+  return "Editar produto";
 }
 
 module.exports = {
-    cadastrar,
-    listar,
-    editar,
-    excluir
+  cadastrar,
+  listar,
+  editar,
+  excluir,
 };
