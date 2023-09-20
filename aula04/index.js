@@ -17,7 +17,7 @@ async function recepcao(req, res){
     }
 
     if(req.url === '/professores'){
-        let dados = await db.executar('SELECT * FROM tb_lab');
+        let dados = await db.executar('SELECT * FROM tb_professor');
         res.end(JSON.stringify(dados));
         return;
     }
