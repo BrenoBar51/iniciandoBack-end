@@ -5,7 +5,7 @@ async function executar(sql) {
     host: "localhost",
     user: "root",
     password: "1234",
-    database: "db_escola",
+    database: "db_curso",
     port: "3306",
   });
   let [results] = await conexao.query(sql);
