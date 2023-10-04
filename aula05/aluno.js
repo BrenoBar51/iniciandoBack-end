@@ -8,6 +8,7 @@ router.get('/alunos', (req, res) => {
 });
 
 router.get('/alunos/:id', (req, res) => {
+    //select * from tb_alunos where id = req.params.id;
     res.send({
         id: req.params.id,
         nome: "Chiquim",
