@@ -1,0 +1,12 @@
+Mensagens de sucesso:
+    2xx: 200-299
+
+Mensagens de erros por parte de quem pergunta(cliente):
+    4xx: 400-499
+    400 - bad request
+    401 - unauthorized
+    403 - forbidden
+    404 - not found
+
+Mensagens de erros por parte do servidor:
+    5xx: 500-599
